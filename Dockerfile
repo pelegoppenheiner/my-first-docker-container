@@ -6,7 +6,6 @@ RUN apt-get update && \
 
 RUN pip install awscli
 
-
 WORKDIR /tmp/workdir
 
 COPY copy_thumbs.sh /tmp/workdir
