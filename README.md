@@ -23,7 +23,7 @@ docker run \
     -e OUTPUT_S3_PATH='peleg-simple-site/folder' \
     -e AWS_REGION='eu-west-1' \
     -e AWS_ACCESS_KEY_ID='aaaaaaaaaaaaaaaaaaaaa' \
-    -e AWS_SECRET_ACCESS_KEY='bbbbbbbbbbbbbbbbbbb/cccccccccccccccccccccccccccccccc' \
+    -e AWS_SECRET_ACCESS_KEY='bbbbbbbbbbbbbbbbbbb/ccccccccccccccccccccccccccccccccaaa' \
     my-docker-ffmpeg-thumb
 
 # 5
